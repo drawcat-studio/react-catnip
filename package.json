@@ -1,0 +1,22 @@
+{
+  "name": "@drawcat/react-catnip",
+  "description": "An open-source react toolkit that stimulates your development process.",
+  "author": "Drawcat Studio",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/drawcat-studio/react-catnip#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drawcat-studio/react-catnip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drawcat-studio/react-catnip/issues"
+  },
+  "workspaces": [
+    "packages/paw"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
