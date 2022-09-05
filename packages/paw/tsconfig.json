@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./types",
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "emitDeclarationOnly": false,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "remove",
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ESNext"],
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "preserveConstEnums": true,
+    "preserveValueImports": false,
+    "removeComments": true,
+    "rootDir": "./src",
+    "sourceMap": true,
+    "stripInternal": true
+    // "mapRoot": "",
+    // "sourceRoot": "",
+  }
+}
